@@ -15,6 +15,7 @@
 - Atcion은 간단한 **Javascript 객체**이고, 여기에는 우리가 수행하는 작업의 유형을 지정하는 **type 속성**이 있으며 선택적으로 Redux 저장소 일부 데이터를 보내는데 사용되는 **payload 속성**을 가질 수도 있다.
 
   `{type: 'FETCH_USER_SUCCESS}, response: {id: 3, name: 'JinYeong}`
+
   `{type: 'FETCH_USER_SUCCESS, text: 'Read the Redux docs'}`
 
 **2. Reducer**
